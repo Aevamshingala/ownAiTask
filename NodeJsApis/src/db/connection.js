@@ -1,6 +1,6 @@
 import "reflect-metadata";
 import { DataSource } from "typeorm";
-import { user } from "../models/user.js";
+import { user } from "../models/user.model.js";
 
 export const Connection = new DataSource({
   type: "sqlite",
